@@ -4,10 +4,6 @@
     <div class="rec">
       <a href="" class="rec-a"  v-for="(channel , index ) in recChannal" :key="index">
        <div class="rec-img" > <img :src="channel.picture" alt=""> </div>
-      
-        <div class="span-box">
-          <span>{{channel.title.uz}}</span>
-        </div>
       </a>
     </div>
   </div>
